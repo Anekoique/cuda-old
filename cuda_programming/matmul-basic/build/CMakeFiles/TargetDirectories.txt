@@ -1,0 +1,3 @@
+/home/stoair/tensorRT/cuda_programming/matmul-basic/build/CMakeFiles/matmul.dir
+/home/stoair/tensorRT/cuda_programming/matmul-basic/build/CMakeFiles/edit_cache.dir
+/home/stoair/tensorRT/cuda_programming/matmul-basic/build/CMakeFiles/rebuild_cache.dir
