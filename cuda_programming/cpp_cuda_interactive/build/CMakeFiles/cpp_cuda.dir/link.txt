@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/cpp_cuda.dir/src/main.cpp.o CMakeFiles/cpp_cuda.dir/src/print_index.cu.o -o ../bin/cpp_cuda   -L/usr/local/cuda-12.1/targets/x86_64-linux/lib/stubs  -L/usr/local/cuda-12.1/targets/x86_64-linux/lib  -lcudadevrt -lcudart_static -lrt -lpthread -ldl 

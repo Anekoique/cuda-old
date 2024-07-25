@@ -1,0 +1,1 @@
+/usr/bin/g++ CMakeFiles/cuda_test.dir/src/Grid_span_cycle.cu.o -o ../bin/cuda_test  -lcudadevrt -lcudart_static -lrt -lpthread -ldl  -L"/usr/local/cuda-12.1/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda-12.1/targets/x86_64-linux/lib"

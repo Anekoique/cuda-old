@@ -1,0 +1,4 @@
+/home/stoair/tensorRT/cuda_programming/dim_and_index/build/CMakeFiles/cuda_test.dir
+/home/stoair/tensorRT/cuda_programming/dim_and_index/build/CMakeFiles/print_index.dir
+/home/stoair/tensorRT/cuda_programming/dim_and_index/build/CMakeFiles/edit_cache.dir
+/home/stoair/tensorRT/cuda_programming/dim_and_index/build/CMakeFiles/rebuild_cache.dir
