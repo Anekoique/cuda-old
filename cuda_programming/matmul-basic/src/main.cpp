@@ -23,8 +23,10 @@ int main()
 
     seed = 1;
     initMatrix(h_matM, size, min, max, seed);
+    // printMat(h_matM, size);
     seed += 1;
     initMatrix(h_matN, size, min, max, seed);
+    // printMat(h_matN, size);
 
     // CPU
     timer.start();

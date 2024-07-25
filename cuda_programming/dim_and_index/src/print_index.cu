@@ -81,8 +81,8 @@ void print_two_dim(){
     dim3 block(blockDim, blockDim);
     dim3 grid(gridDim, gridDim);
 
-    // print_idx_kernel<<<grid, block>>>();
-    // print_dim_kernel<<<grid, block>>>();
+    print_idx_kernel<<<grid, block>>>();
+    print_dim_kernel<<<grid, block>>>();
     // print_thread_idx_per_block_kernel<<<grid, block>>>();
     print_thread_idx_per_grid_kernel<<<grid, block>>>();
 
@@ -129,8 +129,8 @@ int main() {
     __syncthreads:         线程块内同步
     */
     // print_one_dim();
-    // print_two_dim();
-    print_three_dim();
-    //print_cord();
+    print_two_dim();
+    // print_three_dim();
+    print_cord();
     return 0;
 }

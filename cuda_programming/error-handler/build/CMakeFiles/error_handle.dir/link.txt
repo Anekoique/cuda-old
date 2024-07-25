@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/error_handle.dir/src/main.cpp.o CMakeFiles/error_handle.dir/src/matmul_cpu.cpp.o CMakeFiles/error_handle.dir/src/matmul_gpu.cu.o CMakeFiles/error_handle.dir/src/utils.cpp.o -o ../bin/error_handle   -L/usr/local/cuda-12.1/targets/x86_64-linux/lib/stubs  -L/usr/local/cuda-12.1/targets/x86_64-linux/lib  -lcudadevrt -lcudart_static -lrt -lpthread -ldl 
