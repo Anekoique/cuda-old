@@ -1,0 +1,3 @@
+/home/stoair/tensorRT/cuda_programming/device-info_3/build/CMakeFiles/device_info.dir
+/home/stoair/tensorRT/cuda_programming/device-info_3/build/CMakeFiles/edit_cache.dir
+/home/stoair/tensorRT/cuda_programming/device-info_3/build/CMakeFiles/rebuild_cache.dir

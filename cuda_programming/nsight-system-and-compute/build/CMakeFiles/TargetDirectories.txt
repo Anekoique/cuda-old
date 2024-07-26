@@ -1,0 +1,3 @@
+/home/stoair/tensorRT/cuda_programming/nsight-system-and-compute/build/CMakeFiles/nsight_system.dir
+/home/stoair/tensorRT/cuda_programming/nsight-system-and-compute/build/CMakeFiles/edit_cache.dir
+/home/stoair/tensorRT/cuda_programming/nsight-system-and-compute/build/CMakeFiles/rebuild_cache.dir

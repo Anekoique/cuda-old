@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/device_info.dir/src/main.cpp.o CMakeFiles/device_info.dir/src/utils.cpp.o -o ../bin/device_info   -L/usr/local/cuda-12.1/lib64 
