@@ -180,7 +180,7 @@ CMakeFiles/MyExecutable.dir/src/main.cpp.o
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h
  /usr/include/c++/11/bits/charconv.h
  /usr/include/c++/11/bits/basic_string.tcc
- /home/stoair/tensorRT/cuda_programming/device-info_2/src/utils.hpp
+ /home/stoair/tensorRT/cuda_programming/device-info_2/src/include/utils.hpp
  /usr/include/c++/11/system_error
  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h
  /usr/include/c++/11/stdexcept
@@ -193,7 +193,7 @@ CMakeFiles/MyExecutable.dir/src/main.cpp.o
 CMakeFiles/MyExecutable.dir/src/utils.cpp.o
  /home/stoair/tensorRT/cuda_programming/device-info_2/src/utils.cpp
  /usr/include/stdc-predef.h
- /home/stoair/tensorRT/cuda_programming/device-info_2/src/utils.hpp
+ /home/stoair/tensorRT/cuda_programming/device-info_2/src/include/utils.hpp
  /usr/local/cuda-12.1/targets/x86_64-linux/include/cuda_runtime.h
  /usr/local/cuda-12.1/targets/x86_64-linux/include/crt/host_config.h
  /usr/local/cuda-12.1/targets/x86_64-linux/include/builtin_types.h

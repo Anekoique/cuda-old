@@ -1,7 +1,7 @@
 CMakeFiles/MyExecutable.dir/src/utils.cpp.o: \
  /home/stoair/tensorRT/cuda_programming/device-info_2/src/utils.cpp \
  /usr/include/stdc-predef.h \
- /home/stoair/tensorRT/cuda_programming/device-info_2/src/utils.hpp \
+ /home/stoair/tensorRT/cuda_programming/device-info_2/./src/include/utils.hpp \
  /usr/local/cuda-12.1/targets/x86_64-linux/include/cuda_runtime.h \
  /usr/local/cuda-12.1/targets/x86_64-linux/include/crt/host_config.h \
  /usr/local/cuda-12.1/targets/x86_64-linux/include/builtin_types.h \

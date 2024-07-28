@@ -129,53 +129,29 @@ device_info/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_info.dir/build.make CMakeFiles/device_info.dir/build
 .PHONY : device_info/fast
 
-src/main.o: src/main.cpp.o
+src/main.o: src/main.cu.o
 .PHONY : src/main.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_info.dir/build.make CMakeFiles/device_info.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/main.cu.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_info.dir/build.make CMakeFiles/device_info.dir/src/main.cu.o
+.PHONY : src/main.cu.o
 
-src/main.i: src/main.cpp.i
+src/main.i: src/main.cu.i
 .PHONY : src/main.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_info.dir/build.make CMakeFiles/device_info.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/main.cu.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_info.dir/build.make CMakeFiles/device_info.dir/src/main.cu.i
+.PHONY : src/main.cu.i
 
-src/main.s: src/main.cpp.s
+src/main.s: src/main.cu.s
 .PHONY : src/main.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_info.dir/build.make CMakeFiles/device_info.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
-
-src/matmul.gpu.o: src/matmul.gpu.cu.o
-.PHONY : src/matmul.gpu.o
-
-# target to build an object file
-src/matmul.gpu.cu.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_info.dir/build.make CMakeFiles/device_info.dir/src/matmul.gpu.cu.o
-.PHONY : src/matmul.gpu.cu.o
-
-src/matmul.gpu.i: src/matmul.gpu.cu.i
-.PHONY : src/matmul.gpu.i
-
-# target to preprocess a source file
-src/matmul.gpu.cu.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_info.dir/build.make CMakeFiles/device_info.dir/src/matmul.gpu.cu.i
-.PHONY : src/matmul.gpu.cu.i
-
-src/matmul.gpu.s: src/matmul.gpu.cu.s
-.PHONY : src/matmul.gpu.s
-
-# target to generate assembly for a file
-src/matmul.gpu.cu.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_info.dir/build.make CMakeFiles/device_info.dir/src/matmul.gpu.cu.s
-.PHONY : src/matmul.gpu.cu.s
+src/main.cu.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/device_info.dir/build.make CMakeFiles/device_info.dir/src/main.cu.s
+.PHONY : src/main.cu.s
 
 src/utils.o: src/utils.cpp.o
 .PHONY : src/utils.o
@@ -213,9 +189,6 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/matmul.gpu.o"
-	@echo "... src/matmul.gpu.i"
-	@echo "... src/matmul.gpu.s"
 	@echo "... src/utils.o"
 	@echo "... src/utils.i"
 	@echo "... src/utils.s"

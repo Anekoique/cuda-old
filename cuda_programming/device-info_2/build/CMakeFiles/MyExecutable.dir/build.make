@@ -108,6 +108,7 @@ MyExecutable_EXTERNAL_OBJECTS =
 MyExecutable: CMakeFiles/MyExecutable.dir/src/main.cpp.o
 MyExecutable: CMakeFiles/MyExecutable.dir/src/utils.cpp.o
 MyExecutable: CMakeFiles/MyExecutable.dir/build.make
+MyExecutable: /usr/local/cuda-12.1/lib64/libcudart.so
 MyExecutable: CMakeFiles/MyExecutable.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stoair/tensorRT/cuda_programming/device-info_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MyExecutable"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyExecutable.dir/link.txt --verbose=$(VERBOSE)

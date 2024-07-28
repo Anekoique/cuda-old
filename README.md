@@ -46,17 +46,17 @@ target_link_libraries(MyExecutable libcudart.so)
 
 ![image-20240727003103094](/home/stoair/.config/Typora/typora-user-images/image-20240727003103094.png)
 - CMake:
-```makefile
+```cmake
 # include_directories（）的影响范围最大，可以为CMakelists.txt后的所有项目添加头文件目录
-一般写在最外层CMakelists.txt中影响全局
+# 一般写在最外层CMakelists.txt中影响全局
 include_directories()
 ```
-```makefile
+```cmake
 # target_include_directories(<target> [SYSTEM] [AFTER|BEFORE] <INTERFACE|PUBLIC|PRIVATE> [items1...] [<INTERFACE|PUBLIC|PRIVATE> [items2...] ...])
 # INTERFACE、PUBLIC和PRIVATE关键字用于（指定target_include_directories的影响范围）
 target_include_directories()
 ```
-```makefile
+```cmake
 # add_library() 两种格式 , 生成（静态/动态）库so或者.a文件
 # 1：生成一个名为 < name > 的library
 # add_library(<name> [STATIC | SHARED | MODULE] [EXCLUDE_FROM_ALL] [<source>...]
@@ -77,6 +77,12 @@ add_executable(Demo main.cpp $<TARGET_OBJECTS:hello>)
 add_library(hello OBJECT hello.cpp)
 add_executable(Demo main.cpp)
 target_link_libraries(Demo hello)
+```
+
+```cmake
+# find_package和find_library都可以用于在CMake中查找和链接库，但find_package更适用于具有CMake配置文件的库，而find_library则适用于没有CMake配置文件的库
+find_package()
+find_library()
 ```
 
 ```makefile

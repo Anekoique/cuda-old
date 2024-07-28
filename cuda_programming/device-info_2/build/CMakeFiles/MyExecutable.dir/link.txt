@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/MyExecutable.dir/src/main.cpp.o CMakeFiles/MyExecutable.dir/src/utils.cpp.o -o MyExecutable   -L/usr/local/cuda-12.1/lib64  -Wl,-rpath,/usr/local/cuda-12.1/lib64 -lcudart 
+/usr/bin/c++ CMakeFiles/MyExecutable.dir/src/main.cpp.o CMakeFiles/MyExecutable.dir/src/utils.cpp.o -o MyExecutable  -Wl,-rpath,/usr/local/cuda-12.1/lib64 /usr/local/cuda-12.1/lib64/libcudart.so 

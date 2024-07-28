@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/stoair/tensorRT/cuda_programming/device-info_3/src/matmul.gpu.cu" "CMakeFiles/device_info.dir/src/matmul.gpu.cu.o" "gcc" "CMakeFiles/device_info.dir/src/matmul.gpu.cu.o.d"
-  "/home/stoair/tensorRT/cuda_programming/device-info_3/src/main.cpp" "CMakeFiles/device_info.dir/src/main.cpp.o" "gcc" "CMakeFiles/device_info.dir/src/main.cpp.o.d"
+  "/home/stoair/tensorRT/cuda_programming/device-info_3/src/main.cu" "CMakeFiles/device_info.dir/src/main.cu.o" "gcc" "CMakeFiles/device_info.dir/src/main.cu.o.d"
   "/home/stoair/tensorRT/cuda_programming/device-info_3/src/utils.cpp" "CMakeFiles/device_info.dir/src/utils.cpp.o" "gcc" "CMakeFiles/device_info.dir/src/utils.cpp.o.d"
   )
 

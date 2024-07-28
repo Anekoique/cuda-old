@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/stoair/tensorRT/cuda_programming/device-info_2/./src/include
 
 CXX_FLAGS = 
 

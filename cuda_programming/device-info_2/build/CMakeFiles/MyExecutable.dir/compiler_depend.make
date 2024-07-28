@@ -179,7 +179,7 @@ CMakeFiles/MyExecutable.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
-  ../src/utils.hpp \
+  ../src/include/utils.hpp \
   /usr/include/c++/11/system_error \
   /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
   /usr/include/c++/11/stdexcept \
@@ -191,7 +191,7 @@ CMakeFiles/MyExecutable.dir/src/main.cpp.o: ../src/main.cpp \
 
 CMakeFiles/MyExecutable.dir/src/utils.cpp.o: ../src/utils.cpp \
   /usr/include/stdc-predef.h \
-  ../src/utils.hpp \
+  ../src/include/utils.hpp \
   /usr/local/cuda-12.1/targets/x86_64-linux/include/cuda_runtime.h \
   /usr/local/cuda-12.1/targets/x86_64-linux/include/crt/host_config.h \
   /usr/local/cuda-12.1/targets/x86_64-linux/include/builtin_types.h \
@@ -485,8 +485,6 @@ CMakeFiles/MyExecutable.dir/src/utils.cpp.o: ../src/utils.cpp \
 
 /usr/include/c++/11/system_error:
 
-../src/utils.hpp:
-
 /usr/include/c++/11/bits/basic_string.tcc:
 
 /usr/include/c++/11/bits/charconv.h:
@@ -532,6 +530,8 @@ CMakeFiles/MyExecutable.dir/src/utils.cpp.o: ../src/utils.cpp \
 /usr/include/c++/11/bits/alloc_traits.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
+
+../src/include/utils.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 

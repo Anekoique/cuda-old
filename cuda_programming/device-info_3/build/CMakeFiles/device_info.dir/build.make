@@ -69,19 +69,19 @@ include CMakeFiles/device_info.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/device_info.dir/flags.make
 
-CMakeFiles/device_info.dir/src/main.cpp.o: CMakeFiles/device_info.dir/flags.make
-CMakeFiles/device_info.dir/src/main.cpp.o: ../src/main.cpp
-CMakeFiles/device_info.dir/src/main.cpp.o: CMakeFiles/device_info.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stoair/tensorRT/cuda_programming/device-info_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/device_info.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/device_info.dir/src/main.cpp.o -MF CMakeFiles/device_info.dir/src/main.cpp.o.d -o CMakeFiles/device_info.dir/src/main.cpp.o -c /home/stoair/tensorRT/cuda_programming/device-info_3/src/main.cpp
+CMakeFiles/device_info.dir/src/main.cu.o: CMakeFiles/device_info.dir/flags.make
+CMakeFiles/device_info.dir/src/main.cu.o: ../src/main.cu
+CMakeFiles/device_info.dir/src/main.cu.o: CMakeFiles/device_info.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stoair/tensorRT/cuda_programming/device-info_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CUDA object CMakeFiles/device_info.dir/src/main.cu.o"
+	/usr/local/cuda-12.1/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/device_info.dir/src/main.cu.o -MF CMakeFiles/device_info.dir/src/main.cu.o.d -x cu -c /home/stoair/tensorRT/cuda_programming/device-info_3/src/main.cu -o CMakeFiles/device_info.dir/src/main.cu.o
 
-CMakeFiles/device_info.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/device_info.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stoair/tensorRT/cuda_programming/device-info_3/src/main.cpp > CMakeFiles/device_info.dir/src/main.cpp.i
+CMakeFiles/device_info.dir/src/main.cu.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/device_info.dir/src/main.cu.i"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CUDA_CREATE_PREPROCESSED_SOURCE
 
-CMakeFiles/device_info.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/device_info.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stoair/tensorRT/cuda_programming/device-info_3/src/main.cpp -o CMakeFiles/device_info.dir/src/main.cpp.s
+CMakeFiles/device_info.dir/src/main.cu.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CUDA source to assembly CMakeFiles/device_info.dir/src/main.cu.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CUDA_CREATE_ASSEMBLY_SOURCE
 
 CMakeFiles/device_info.dir/src/utils.cpp.o: CMakeFiles/device_info.dir/flags.make
 CMakeFiles/device_info.dir/src/utils.cpp.o: ../src/utils.cpp
@@ -97,35 +97,19 @@ CMakeFiles/device_info.dir/src/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/device_info.dir/src/utils.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stoair/tensorRT/cuda_programming/device-info_3/src/utils.cpp -o CMakeFiles/device_info.dir/src/utils.cpp.s
 
-CMakeFiles/device_info.dir/src/matmul.gpu.cu.o: CMakeFiles/device_info.dir/flags.make
-CMakeFiles/device_info.dir/src/matmul.gpu.cu.o: ../src/matmul.gpu.cu
-CMakeFiles/device_info.dir/src/matmul.gpu.cu.o: CMakeFiles/device_info.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stoair/tensorRT/cuda_programming/device-info_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CUDA object CMakeFiles/device_info.dir/src/matmul.gpu.cu.o"
-	/usr/local/cuda-12.1/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/device_info.dir/src/matmul.gpu.cu.o -MF CMakeFiles/device_info.dir/src/matmul.gpu.cu.o.d -x cu -c /home/stoair/tensorRT/cuda_programming/device-info_3/src/matmul.gpu.cu -o CMakeFiles/device_info.dir/src/matmul.gpu.cu.o
-
-CMakeFiles/device_info.dir/src/matmul.gpu.cu.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/device_info.dir/src/matmul.gpu.cu.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CUDA_CREATE_PREPROCESSED_SOURCE
-
-CMakeFiles/device_info.dir/src/matmul.gpu.cu.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CUDA source to assembly CMakeFiles/device_info.dir/src/matmul.gpu.cu.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CUDA_CREATE_ASSEMBLY_SOURCE
-
 # Object files for target device_info
 device_info_OBJECTS = \
-"CMakeFiles/device_info.dir/src/main.cpp.o" \
-"CMakeFiles/device_info.dir/src/utils.cpp.o" \
-"CMakeFiles/device_info.dir/src/matmul.gpu.cu.o"
+"CMakeFiles/device_info.dir/src/main.cu.o" \
+"CMakeFiles/device_info.dir/src/utils.cpp.o"
 
 # External object files for target device_info
 device_info_EXTERNAL_OBJECTS =
 
-../bin/device_info: CMakeFiles/device_info.dir/src/main.cpp.o
+../bin/device_info: CMakeFiles/device_info.dir/src/main.cu.o
 ../bin/device_info: CMakeFiles/device_info.dir/src/utils.cpp.o
-../bin/device_info: CMakeFiles/device_info.dir/src/matmul.gpu.cu.o
 ../bin/device_info: CMakeFiles/device_info.dir/build.make
 ../bin/device_info: CMakeFiles/device_info.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stoair/tensorRT/cuda_programming/device-info_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../bin/device_info"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stoair/tensorRT/cuda_programming/device-info_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/device_info"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/device_info.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
